@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+  spring:
+    jpa:
+      database-platform=org:
+        hibernate:
+          dialect:
+            MySQLDialect:
+comment.avatar: /images/avatar.png
+
